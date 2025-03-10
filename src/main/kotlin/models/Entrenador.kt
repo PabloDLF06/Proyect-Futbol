@@ -22,7 +22,7 @@ class Entrenador(
     apellidos: String,
     fechaNacimiento: String,
     fechaIncorporacion: String,
-    salario: Double,
+    salario: Double?,
     pais: String,
     rol: String,
     var especialidad: Especializacion?
